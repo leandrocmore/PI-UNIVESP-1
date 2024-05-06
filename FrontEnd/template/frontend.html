@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static '/css/frontEnd/styles.css' %}">
+    <title>PI UNIVESP</title>
+</head>
+<body>
+    <header class="pi-univesp_cabecario">
+        
+              
+        <div class="pi-univesp_cabecario-center-div">
+
+            <h1 class="pi-univesp_cabecario-H1 ">WEB Paint </h1>
+            <p class="pi-univesp_cabecario-p">Desenvolvimento Web com banco de dados </p>
+            <p>Creditos de Desenvolvimento Web</p>
+            <ul>
+            
+                    <li>Aline Terumi Bomura Maciel: 2203812,</li>
+                    <li>Fernanda Mira Neves: 2109095,</li> 
+                    <li>Leandro Camargo More: 2227884,</li> 
+                    <li>Matheus Recindivi Martins:2213321,</li> 
+                    <li>Silvana Monteiro Martins: 2220889,</li> 
+        
+            </ul>
+        </div>
+        
+           
+    </header>
+    <nav class="pi-univesp_nav-container">
+        <button class="pi-univesp_botton">
+                        <a href="https://pi-univesp-69on.onrender.com/Desenho/" class=" rota-desenho-link" >Faça seu Desenho</a>
+                    </button>
+
+    </nav>
+    <main class="pi-univesp_main-container">
+            
+
+            <div class="pi-univesp_main-api " id="dados-container"></div>
+
+    </main>
+
+    <footer class="pi-univesp_footer-container">
+
+        <div class="pi-univesp_footer-div">
+            <h1>UNIVESP </h1>
+            <p>Univercidade Virtual do Estado de Sâo Paulo</p>
+               
+        </div>
+    </footer>
+
+    <script src="{% static 'scrypt/frontEnd/scrypt.js' %}"></script>
+</body>
+</html>

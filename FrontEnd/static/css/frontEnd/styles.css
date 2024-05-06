@@ -1,0 +1,139 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pi-univesp_cabecario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f80d05;
+  text-align: center;
+}
+
+.pi-univesp_cabecario-center-div {
+  background-color: black;
+  width: 100%;
+  border: 5px solid #96baf1;
+}
+
+.pi-univesp_cabecario-p {
+  font-size: 130%;
+}
+
+.pi-univesp_nav-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.pi-univesp_botton {
+  border: 5px solid #ffffff;
+}
+
+
+
+.pi-univesp_footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f80d05;
+  text-align: center;
+  z-index: 2;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+  display: inline-block;
+  margin: 0 5px;
+}
+.pi-univesp_main-container {
+  display: flex;
+  justify-content: center;
+}
+#dados-container div {
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #96baf1;
+}
+
+#dados-container p {
+  margin: 0;
+}
+
+#dados-container img {
+  max-width: 85%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.pi-univesp_main-api {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+
+.nome-span {
+  color: black;
+  font-size: 130%;
+}
+
+.nome-item {
+  color: #f80d05;
+  font-size: 135%;
+}
+
+/* Media queries para tornar o CSS responsivo */
+@media only screen and (min-width: 768px) {
+  #dados-container div {
+    width: 85%;
+  }
+  #dados-container img {
+  max-width: 100%;
+}
+.nome-item {
+  color: #f80d05;
+  font-size: 100%;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .pi-univesp_cabecario-center-div {
+    border-width: 3px; /* Reduzindo a largura da borda para telas menores */
+  }
+  #dados-container div {
+    width: 85%;
+  }
+  #dados-container img {
+  max-width: 100%;
+}
+.nome-item {
+  color: #f80d05;
+  font-size: 100%;
+}
+}
+
+@media only screen and (min-width: 480px) {
+  .pi-univesp_cabecario-p {
+    font-size: 110%; /* Reduzindo o tamanho da fonte para telas muito pequenas */
+  }
+  #dados-container div {
+    width: 85%;
+  }
+  #dados-container img {
+  max-width: 100%;
+}
+.nome-item {
+  color: #f80d05;
+  font-size: 100%;
+}
+}

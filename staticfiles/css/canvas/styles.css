@@ -1,0 +1,83 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin: 0 5px;
+  }
+.pi-univesp_nav-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.pi-univesp_botton {
+  border: 5px solid #ffffff;
+}
+
+  
+
+.pi-univesp_cabecario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f80d05;
+    text-align: center;
+  }
+  
+  .pi-univesp_cabecario-center-div {
+    background-color: black;
+    width: 100%;
+    border: 5px solid #96baf1;
+  }
+  
+  .pi-univesp_cabecario-p {
+    font-size: 130%;
+  }
+  .pi-univesp_footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f80d05;
+    text-align: center;
+   
+  }
+  
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+@media only screen and (min-width: 768px) {
+    .pi-univesp_cabecario-center-div {
+        width: 100%;
+        
+      }
+
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .pi-univesp_cabecario-center-div {
+        
+        width: 100%;
+        
+      }
+  }
+  @media only screen and (min-width: 480px) {
+    .pi-univesp_cabecario-center-div {
+       
+        width: 100%;
+        
+      }
+  }
+  
